@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100vh;
+     background-color: rgb(4, 4, 36);
+     color: white;
+}
+#container{
+    height: 300px;
+    width: 600px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.123);
+}
+#heading{
+    margin:  20px 0 0 0 ;
+}
+#btn{
+    margin: 40px 0 0 0;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 25px;
+}
+#rndquote{
+    margin: 40px 0 0 0 ;
+}
